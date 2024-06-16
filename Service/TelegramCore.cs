@@ -15,7 +15,7 @@ namespace NakormiBot.Service
 {
     public class TelegramCore
     {
-        public static string TelegramToken= "5663100539:AAGS-0ZPMvNvwYk-7amVscpDf5giN4a-T2k";
+        public static string TelegramToken= "";
         public  ITelegramBotClient bot = new TelegramBotClient(TelegramToken);
         public static CancellationToken cancellation;
 
